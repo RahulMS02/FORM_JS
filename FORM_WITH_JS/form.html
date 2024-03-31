@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <link href="form.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <center><h1>REGISTRATION FORM</h1></center>
+    <br><br>
+    <div class="form-all">
+        <form action="page2.html" method="post" id="form">
+            <div class="form-name">
+              <div class="form-group">
+               <label for="fname">FIRST NAME :</label>
+               <input type="text" name="fname" id="fname" placeholder="Enter a first name" required><br><br>
+              </div>
+              <div class="form-group">
+               <label for="lname">LAST NAME :</label>
+               <input type="text" name="lname" id="lname" placeholder="Enter a last name" required><br><br>
+              </div>
+              <div class="form-group">
+               <label for="email">EMAIL :</label>
+               <input type="email" name="email" id="email" placeholder="Enter a email id" required><br><br>
+              </div>
+              <div class="form-group">
+               <label for="age">AGE :</label>
+               <input type="number" name="age" id="age" placeholder="Enter age" required><br><br>
+              </div>
+            </div>
+          <div class="form-group">
+            <div class="form-radio">
+                <label for="gender">GENDER :</label>
+                <label for="male">MALE</label>
+                <input type="radio" name="gender" value="Male" id="male"><br>
+                <label for="female" style="margin-left:75px">FEMALE</label>
+                <input type="radio" name="gender" value="Female" id="female"><br>
+                <label for="others" style="margin-left:75px">OTHERS</label>
+                <input type="radio" name="gender" value="Others" id="others"><br>
+            </div>
+          </div>
+          <div class="form-group">  
+            <div class="form-select">
+                <br>
+                <label for="cgpa">CGPA :</label>
+                <select id="cgpa" name="cgpa">
+                   <option value="below 60%">Below 60%</option>
+                   <option value="60%-70%">60% - 70%</option>
+                   <option value="70%-80%">70% - 80%</option>
+                   <option value="80%-90%">80% - 90%</option>
+                   <option value="90%-100%">90% - 100%</option>
+                </select>
+            </div>   
+          </div>
+            <div class="form-group">
+            <div class="form-checkbox">
+                  <br>
+                  <label for="skills">SKILLS :</label>
+                  <label for="sql">SQL</label>
+                  <input type="checkbox" name="skills" value="Sql" id="sql"><br>
+                  <label for="html/css" style="margin-left:65px">HTML/CSS</label>
+                  <input type="checkbox" name="skills" value="Html/Css" id="html/css"><br>
+                  <label for="react" style="margin-left:65px">REACT</label>
+                  <input type="checkbox" name="skills" value="React" id="react"><br>
+                  <label for="angular" style="margin-left:65px">ANGULAR</label>
+                  <input type="checkbox" name="skills" value="Angular" id="angular"><br>
+                  <label for="network" style="margin-left:65px">NETWORK</label>
+                  <input type="checkbox" name="skills" value="N etwork" id="network"><br>
+            </div>
+            </div>   
+            <div class="button">
+                <button type="submit">SUBMIT</button><br>
+            </div>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

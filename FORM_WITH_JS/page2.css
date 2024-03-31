@@ -1,0 +1,14 @@
+body{
+    background-image: url('BYTES.png');
+    background-size:cover;
+    background-repeat: no;
+}
+h1{
+  color:aliceblue;
+}
+h2{
+    color:aliceblue;    
+}
+p{
+    color:antiquewhite;
+}
